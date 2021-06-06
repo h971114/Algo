@@ -16,11 +16,7 @@ public class SW2814 {
 			M = Integer.parseInt(st.nextToken());
 			map = new boolean[N+1][N+1];
 			visit = new boolean[N+1];
-			if (M==0) {
-				ans=1;
-				System.out.println("#"+tc+" "+ans);
-				continue;
-			}
+			ans = 0;
 			for(int i=1;i<=M;i++) {
 				 st = new StringTokenizer (br.readLine());
 				 x = Integer.parseInt(st.nextToken());
